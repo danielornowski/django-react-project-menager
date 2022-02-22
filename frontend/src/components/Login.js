@@ -18,7 +18,6 @@ function Login() {
         .then( res => {
             localStorage.setItem('user', JSON.stringify(res))
         })
-        window.location.reload(false);
     }
    
 
