@@ -1,2 +1,1 @@
-web: gunicorn myproject.wsgi --log-file -
-worker: ./bin/icka -forever
+web: gunicorn app:app
