@@ -92,7 +92,7 @@ def createComment(request, pk):
     data = request.data
     comment = Comment.objects.create(
         project_id=Project.objects.get(id=pk),
-        author='XD',
+        author='admin',
         body=data['comment']
     )
     serializer = CommentModelSerializer(comment, many=False)
