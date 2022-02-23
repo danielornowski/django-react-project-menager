@@ -16,6 +16,7 @@
     "url": "https://github.com/danielornowski/django-react-project-menager/issues"
   },
   "homepage": "https://github.com/danielornowski/django-react-project-menager#readme",
+  
    "workspaces": [
     "frontend",
     "backend"
